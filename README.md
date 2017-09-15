@@ -13,9 +13,11 @@ _User enters words and their definitions to be stored._
 | Description        | Input           | Output  |
 | ------------- |:-------------:| -----:|
 | It will store words and their meanings. | 'Syzygy', 'A conjunction or opposition, especially of the moon with the sun.' | 'Displays word which can be clicked to reveal definition.' |
+| Displays list of all words and definitions. | 'User clicks link to display all.' | '/list page opens displaying words and their definitions.' |
 | It displays words alphabetically. | 'Zebra', 'Apple', Giraffe | 'Apple', 'Giraffe', 'Zebra' |
 | Runs in Sinatra. |  ruby app.rb  | Opens page in browser. |
 | Deployable with Heroku. | https://damp-scrubland-17389.herokuapp.com/ | Opens page from Heroku. |
+
 
 ## Setup/Installation Requirements
 
