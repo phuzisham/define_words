@@ -15,7 +15,7 @@ get('/output/:name') do
 end
 
 post('/output') do
-  @word = Word.new({:name=>params["name"],:definition=>params["definition"]})
+  @word = Word.new({:name=>params['name'],:definition=>params['definition']})
   @word.save
   @words = Word.sort
   erb(:input)

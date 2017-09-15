@@ -1,44 +1,38 @@
 body {
-  background-color: purple;
-  color: purple;
-}
-
-a {
-  color: purple;
-}
-
-button {
-  background-color: purple;
-  color: green;
-}
-
-input[type="text"], textarea {
-  color: green;
-  background-color: purple;
-  border-style: none;
-}
-
-.well  {
-  background-color: green;
-  border-style: none;
+  background-color: #85DCB0;
+  color: #123;
 }
 
 .jumbotron {
-  background-color: green;
+  background-color: #41B3A3;
 }
 
 .jumbotron h1 {
   margin-left: 40px;
 }
 
-#displayWords {
-  margin: 20px;
-  width: 100%;
+.well  {
+  background-color: #e27d60;
+  border-style: none;
 }
 
-#displayImage {
-  margin: 20px;
-  width: 100%;
+input {
+  max-width: 80%;
+}
+
+input[type='text'], textarea {
+  color: #123;
+  background-color: #e8a87c;
+  border-style: none;
+}
+
+button {
+  background-color: #e8a87c;
+  color: #123;
+}
+
+a {
+  color: #123;
 }
 
 #createWord {
@@ -46,6 +40,13 @@ input[type="text"], textarea {
   width: 100%;
 }
 
-input {
-  max-width: 200px;
+#displayWords {
+  margin: 20px;
+  width: 100%;
+  height: 200px;
+}
+
+#displayImage {
+  margin: 20px;
+  width: 100%;
 }
