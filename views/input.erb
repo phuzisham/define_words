@@ -1,7 +1,7 @@
 <div class='row'>
   <div class='col-sm-8'>
     <div id='createWord' class='well'>
-      <h1>Add words and define them.</h1>
+      <h2>Add words and define them.</h2>
       <form action='/output' method='post'>
         <div class='form-group'>
           <label for='name'>Word:</label>
@@ -18,7 +18,8 @@
 
   <div class='col-sm-4'>
     <div id='displayWords' class='well'>
-      <h3>Words:</h3>
+      <h2>Words:</h2>
+      <p>Click to see definitions...</p>
       <% @words.each do |word| %>
         <h4><a href='/output/<%= word.name %>'><%= word.name %></a></h4>
       <% end %>

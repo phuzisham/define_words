@@ -29,4 +29,10 @@ describe('Word') do
       expect(Word.find('Syzygy')).to(eq(test_word1))
     end
   end
+
+  describe('.sort') do
+    it('sorts words in vocab array') do
+      expect(Word.sort).to(eq(Word.sort))
+    end
+  end
 end
