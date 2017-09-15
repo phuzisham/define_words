@@ -12,3 +12,11 @@ describe('adding words', {:type => :feature}) do
     expect(page).to have_content('Dichotomy')
   end
 end
+
+describe('displays definitions', {:type => :feature}) do
+  it('displays definition when word is clicked on') do
+    visit('/')
+    click_link('Dichotomy')
+    expect(page).to have_content('A division or contrast between two things that are or are represented as being opposed or entirely different.')
+  end
+end
