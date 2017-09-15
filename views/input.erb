@@ -19,10 +19,12 @@
   <div class='col-sm-4'>
     <div id='displayWords' class='well'>
       <h2>Words:</h2>
-      <p>Click to see definitions...</p>
+      <p>Click a word to see its definition...</p>
       <% @words.each do |word| %>
         <h4><a href='/output/<%= word.name %>'><%= word.name %></a></h4>
       <% end %>
+      <br>
+      <p>Click <a id='list' href='/list'>here</a> to see a list of all definitions.</p>
     </div>
   </div>
 </div>

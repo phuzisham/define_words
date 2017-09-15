@@ -26,6 +26,11 @@ get('/back') do
   erb(:input)
 end
 
+get('/list') do
+  @words = Word.sort
+  erb(:list)
+end
+
 get('/output/:name') do
   @word = Word.find(params[:name])
   erb(:output)
