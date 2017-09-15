@@ -10,10 +10,10 @@ class Word
     @@vocab.push(self)
   end
 
-  def self.find(wordName)
-    @@vocab.each do |name|
-      if word.name == wordName
-        return word
+  def self.find(str)
+    while (x <= @@vocab.length)
+      if (@@vocab[x].name == str)
+        return @@vocab[x]
       end
     end
   end
