@@ -11,9 +11,9 @@ class Word
   end
 
   def self.find(str)
-    @@vocab.each do |name|
-      if self.name == str
-        return self
+    @@vocab.each do |word|
+      if word.name == str
+        return word
       end
     end
   end

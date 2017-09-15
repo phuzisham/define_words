@@ -9,12 +9,13 @@ get('/') do
   erb(:input)
 end
 
-get('/output/:word_def') do
+get('/output/:name') do
   @word = Word.find(params[:name])
   erb(:output)
 end
 
-# post('/output/:word_def') do
+# post('/output/:name') do
+#   @word = Word.find(params[:name])
 #   erb(:output)
 # end
 

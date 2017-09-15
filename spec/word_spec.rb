@@ -22,5 +22,11 @@ describe('Word') do
       expect(@@vocab[0]).to(eq(test_word1))
       expect(@@vocab[1]).to(eq(test_word2))
     end
-  end 
+  end
+
+  describe('.find') do
+    it('saves words to vocab array') do
+      expect(Word.find('Syzygy')).to(eq(test_word1))
+    end
+  end
 end
