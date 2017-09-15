@@ -11,9 +11,9 @@ class Word
   end
 
   def self.find(str)
-    while (x <= @@vocab.length)
-      if (@@vocab[x].name == str)
-        return @@vocab[x]
+    @@vocab.each do |name|
+      if self.name == str
+        return self
       end
     end
   end
