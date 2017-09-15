@@ -14,14 +14,9 @@ get('/output/:name') do
   erb(:output)
 end
 
-# post('/output/:name') do
-#   @word = Word.find(params[:name])
-#   erb(:output)
-# end
-
 post('/output') do
-  @word = Word.new({:name=>params["name"],:definition=>params["defdefinition"]})
-  @word.save()
+  @word = Word.new({:name=>params["name"],:definition=>params["definition"]})
+  @word.save
   @words = Word.sort
   erb(:input)
 end
