@@ -1,0 +1,51 @@
+body {
+  background-color: purple;
+  color: purple;
+}
+
+a {
+  color: purple;
+}
+
+button {
+  background-color: purple;
+  color: green;
+}
+
+input[type="text"], textarea {
+  color: green;
+  background-color: purple;
+  border-style: none;
+}
+
+.well  {
+  background-color: green;
+  border-style: none;
+}
+
+.jumbotron {
+  background-color: green;
+}
+
+.jumbotron h1 {
+  margin-left: 40px;
+}
+
+#displayWords {
+  margin: 20px;
+  width: 100%;
+}
+
+#displayImage {
+  margin: 20px;
+  width: 100%;
+}
+
+#createWord {
+  margin: 20px;
+  width: 100%;
+}
+
+input {
+  max-width: 200px;
+}
