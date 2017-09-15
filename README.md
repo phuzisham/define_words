@@ -16,18 +16,18 @@ _User enters words and their definitions to be stored._
 | Displays list of all words and definitions. | 'User clicks link to display all.' | '/list page opens displaying words and their definitions.' |
 | It displays words alphabetically. | 'Zebra', 'Apple', Giraffe | 'Apple', 'Giraffe', 'Zebra' |
 | Runs in Sinatra. |  ruby app.rb  | Opens page in browser. |
-| Deployable with Heroku. | https://damp-scrubland-17389.herokuapp.com/ | Opens page from Heroku. |
+| Deployable with Heroku. | https://damp-scrubland-17389.herokuapp.com | Opens page from Heroku. |
 
 
 ## Setup/Installation Requirements
 
-1. _Download files [here](https://github.com/phuzisham/anagram_check)._
+1. _Download files [here](https://github.com/phuzisham/define_words.git)._
 
 2. _In terminal run 'ruby app.rb'._
 
 3. _Use page in browser._
 
-_Or use Heroku link: (https://damp-scrubland-17389.herokuapp.com/)_
+_Or use Heroku link: (https://damp-scrubland-17389.herokuapp.com)_
 
 ## Support and contact details
 
