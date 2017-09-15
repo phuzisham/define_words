@@ -15,6 +15,7 @@ body {
 .well  {
   background-color: #e27d60;
   border-style: none;
+  margin-bottom: 40px;
 }
 
 input {
