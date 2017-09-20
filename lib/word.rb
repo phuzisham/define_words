@@ -26,11 +26,6 @@ class Word
   end
 
   def add_definition(str)
-    # @@vocab.each do |word|
-    #   if word.name == self.name
-        self.definitions.push(str)
-    #   end
-    # end
-    # # definitions
+    self.definitions.push(str)
   end
 end

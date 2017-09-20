@@ -16,6 +16,7 @@ end
 
 get('/output/:name') do
   @word = Word.find(params[:name])
+  @definitions = @word.definitions
   erb(:output)
 end
 
@@ -24,4 +25,11 @@ post('/output') do
   @word.save
   @words = Word.sort
   erb(:input)
+end
+
+post('/addDef') do
+  @word = Word.find(params[:name])
+  @definitions = @word.definitions
+  @definitions.push(params['definition'])
+  erb(:output)
 end

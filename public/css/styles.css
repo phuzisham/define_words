@@ -43,12 +43,6 @@ a {
 
 #displayWords {
   margin: 20px;
-  margin-bottom: 40px;
   padding: 20px;
-  width: 100%;
-}
-
-#displayImage {
-  margin: 20px;
   width: 100%;
 }
