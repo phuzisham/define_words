@@ -1,12 +1,17 @@
 # _Personal Dictionary_
 
-#### _A program that allows you to create a database of words and their definitions. Last Modified: 09.15.2017_
+#### _A program that allows you to create a database of words and their definitions.
+
+#### _Created: 09.15.2017_
+#### _Last Modified: 12.28.2017_
 
 #### By _David Hale_
 
 ## Description
 
 _User enters words and their definitions to be stored._
+
+![Screenshot](https://github.com/phuzisham/define_words/blob/master/img/cap.png "Screen Capture")
 
 ## Specs
 
