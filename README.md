@@ -1,6 +1,6 @@
 # _Personal Dictionary_
 
-#### _A program that allows you to create a database of words and their definitions.
+#### A program that allows you to create a database of words and their definitions.
 
 #### _Created: 09.15.2017_
 #### _Last Modified: 12.28.2017_
